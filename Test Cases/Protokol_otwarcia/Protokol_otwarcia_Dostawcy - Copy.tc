@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Protokol_otwarcia_Dostawcy - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32572523-a1b6-430d-b461-6c3b3a162830</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>24ddbe69-4d7e-447f-969e-0a08b898c427</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
