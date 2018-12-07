@@ -4,7 +4,7 @@
    <name>Ogloszenie_</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-04T17:24:31</lastRun>
+   <lastRun>2018-12-06T23:26:46</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>fa416b79-2bfa-4640-b218-2805ce6fcd45</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Metryka/Metryka_G1</testCaseId>
    </testCaseLink>
    <testCaseLink>

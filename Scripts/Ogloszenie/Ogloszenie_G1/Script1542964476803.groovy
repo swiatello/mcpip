@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Ogloszenie/Ogloszenie_G1/span_636611-N-2018_01'))
+WebUI.click(findTestObject('Ogloszenie/Ogloszenie_G1/span_636611-N-2018_09'))
 
 WebUI.delay(3)
 
@@ -485,4 +485,8 @@ WebUI.delay(4)
 WebUI.click(findTestObject('Ogloszenie/Ogloszenie_G1/span_Przejd dalej'))
 
 WebUI.delay(3)
+
+WebUI.click(findTestObject('Ogloszenie/Ogloszenie_G1/a_Usu_icon-1'))
+
+WebUI.delay(2)
 

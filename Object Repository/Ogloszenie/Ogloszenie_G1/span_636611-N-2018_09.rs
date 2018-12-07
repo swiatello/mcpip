@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_636611-N-2018_01</name>
+   <name>span_636611-N-2018_09</name>
    <tag></tag>
    <elementGuidId>0687549f-728f-4856-84c4-53d966690c46</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = '636611-N-2018_07' or . = '636611-N-2018_07')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='all']/div[2]/section/div/div[2]/ul/li[2]/div/p/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = '636611-N-2018_10' or . = '636611-N-2018_10')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>636611-N-2018_07</value>
+      <value>636611-N-2018_10</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

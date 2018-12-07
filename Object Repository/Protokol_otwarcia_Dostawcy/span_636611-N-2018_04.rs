@@ -6,12 +6,12 @@
    <elementGuidId>4e3ccb3f-9270-406d-997e-98b8b9d3308f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = '636611-N-2018_04' or . = '636611-N-2018_04')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='all']/div[2]/section/div/div[2]/ul/li[6]/div/p/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = '636611-N-2018_10' or . = '636611-N-2018_10')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>636611-N-2018_04</value>
+      <value>636611-N-2018_10</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

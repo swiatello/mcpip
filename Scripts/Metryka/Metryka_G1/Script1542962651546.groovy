@@ -17,7 +17,7 @@ WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Metryka/Metryka_G1/span_Nowe postpowanie'))
 
-WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Numer()_Number'), '636611-N-2018_07')
+WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Numer()_Number'), '636611-N-2018_10')
 
 WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Tytu()_Name'), 'Zakup i sukcesywna dostawa materiałów eksploatacyjnych dla potrzeb centralnej sterylizatorni WSZZ w Kielcach')
 

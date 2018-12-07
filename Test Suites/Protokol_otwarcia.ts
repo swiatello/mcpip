@@ -4,7 +4,7 @@
    <name>Protokol_otwarcia</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-27T15:23:19</lastRun>
+   <lastRun>2018-12-07T20:09:54</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -24,6 +24,18 @@
       <testCaseId>Test Cases/Logowanie/Logowanie poprawne</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>364c6a5d-4fed-42f3-8145-e437b6442c69</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Metryka/Metryka_G1</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fb7c100b-7768-4cad-a6e4-d58316a14cd5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Ogloszenie/Ogloszenie_G1</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>d651c5bd-d1e7-4115-8321-fbceb3d5f856</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -36,9 +48,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0779aeb5-1384-4cd4-8038-af3bdfbe4e34</guid>
+      <guid>29ffcd72-d5bc-455c-8314-1073c8d75f3a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Protokol_otwarcia/New Test Case_Jacek</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wstepna_ostat_weryfikacja/wst_ost_weryfikacja</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

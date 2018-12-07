@@ -45,219 +45,220 @@ WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
 
 WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
 
+'D1'
 WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 1')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '1000000')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '12')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
-
-WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'), 0)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'))
-
-WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_'), 0)
-
-WebUI.delay(3)
-
-WebUI.waitForElementPresent(findTestObject('Protokol_otwarcia_Dostawcy/button_'), 3)
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/label_Pakiet()'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
-
-WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 2')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '2456312')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '24')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
-
-WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'), 0)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'))
-
-WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_'), 0)
-
-WebUI.delay(3)
-
-WebUI.waitForElementPresent(findTestObject('Protokol_otwarcia_Dostawcy/button_'), 3)
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/label_Pakiet()'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
-
-WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 3')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '4561236')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '45')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '45')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '11')
-
-WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'), 0)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'))
-
-WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_'), 0)
-
-WebUI.delay(3)
-
-WebUI.waitForElementPresent(findTestObject('Protokol_otwarcia_Dostawcy/button_'), 3)
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/label_Pakiet()'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
-
-WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 4')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '5000000')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '12')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '12')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '12')
-
-WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'), 0)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'))
-
-WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_2'), 0)
-
-WebUI.delay(3)
-
-WebUI.waitForElementPresent(findTestObject('Protokol_otwarcia_Dostawcy/button_2'), 3)
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_2'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/label_Pakiet()'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
-
-WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 1')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '1256789')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '24')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '30')
-
-WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'), 0)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'))
-
-WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_2'), 0)
-
-WebUI.delay(3)
-
-WebUI.waitForElementPresent(findTestObject('Protokol_otwarcia_Dostawcy/button_2'), 3)
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_2'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/label_Pakiet()'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
-
-WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 2')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '2503693')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '14')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '14')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
-
-WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'), 0)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'))
-
-WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_2'), 0)
-
-WebUI.delay(3)
-
-WebUI.waitForElementPresent(findTestObject('Protokol_otwarcia_Dostawcy/button_2'), 3)
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_2'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/label_Pakiet()'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
-
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
-
-WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 3')
-
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '4561231')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '1107000')
 
 WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '36')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '12')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '12')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'), 0)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'))
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_'), 0)
+
+WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Protokol_otwarcia_Dostawcy/button_'), 3)
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/label_Pakiet()'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
+
+WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 2')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '2952000')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '36')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'), 0)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'))
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_'), 0)
+
+WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Protokol_otwarcia_Dostawcy/button_'), 3)
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/label_Pakiet()'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
+
+WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 3')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '3567000')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '36')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'), 0)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'))
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_'), 0)
+
+WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Protokol_otwarcia_Dostawcy/button_'), 3)
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/label_Pakiet()'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
+
+WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 4')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '492012.3')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '36')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'), 0)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'))
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_2'), 0)
+
+WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Protokol_otwarcia_Dostawcy/button_2'), 3)
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_2'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/label_Pakiet()'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
+
+WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 1')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '1119300')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '36')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'), 0)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'))
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_2'), 0)
+
+WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Protokol_otwarcia_Dostawcy/button_2'), 3)
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_2'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/label_Pakiet()'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
+
+WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 2')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '2964300')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '36')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'), 0)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'))
+
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Protokol_otwarcia_Dostawcy/button_2'), 0)
+
+WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Protokol_otwarcia_Dostawcy/button_2'), 3)
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_2'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/label_Pakiet()'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
+
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
+
+WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 3')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '3075000')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '36')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
+
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
 
 WebUI.delay(3)
 
@@ -285,13 +286,13 @@ WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
 
 WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 4')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '5789632')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '5043000')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '12')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '36')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '24')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '24')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
 
 WebUI.delay(3)
 
@@ -319,11 +320,11 @@ WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
 
 WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 1')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '1234567')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '1131600')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '12')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '36')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '12')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
 
 WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
 
@@ -353,11 +354,11 @@ WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
 
 WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 2')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '2223222')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '2607600')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '12')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '36')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '12')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
 
 WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
 
@@ -387,13 +388,13 @@ WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
 
 WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 3')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '3500000')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '4182000')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '24')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '36')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '36')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '30')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
 
 WebUI.delay(3)
 
@@ -421,11 +422,11 @@ WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'))
 
 WebUI.sendKeys(findTestObject('Protokol_otwarcia_Dostawcy/select_pakiet'), 'Pakiet 4')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '4999999')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_cena'), '6642000')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '12')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Gwarancja_form-control n'), '36')
 
-WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '18')
+WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Termin wykonania_form-co'), '30')
 
 WebUI.setText(findTestObject('Protokol_otwarcia_Dostawcy/input_Warunki patnoci_form-con'), '14')
 
@@ -439,9 +440,7 @@ WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_Zapisz'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/a_Ogoszenia'))
+WebUI.click(findTestObject('Protokol_otwarcia_Dostawcy/button_Zamknij protok otwarcia'))
 
-WebUI.delay(3)
-
-WebUI.closeBrowser()
+WebUI.delay(2)
 
