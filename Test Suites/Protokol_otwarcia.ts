@@ -39,7 +39,7 @@
       <guid>d651c5bd-d1e7-4115-8321-fbceb3d5f856</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Protokol_otwarcia/Protokol_otwarcia_Dostawcy</testCaseId>
+      <testCaseId>Test Cases/Protokol_otwarcia/Protokol_otwarcia_G1</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -51,6 +51,6 @@
       <guid>29ffcd72-d5bc-455c-8314-1073c8d75f3a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Wstepna_ostat_weryfikacja/wst_ost_weryfikacja</testCaseId>
+      <testCaseId>Test Cases/Wstepna_ostat_weryfikacja_G1/wst_ost_weryfikacja_G1</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Ogloszenie_</name>
+   <name>Postepowanie_G1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-06T23:26:46</lastRun>
+   <lastRun>2018-12-12T23:20:54</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -34,5 +34,23 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Ogloszenie/Ogloszenie_G1</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8d0b78f7-22d1-48a0-8ea9-482135d5cc92</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Protokol_otwarcia/Protokol_otwarcia_G1</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bf593259-a828-4b36-8998-c28bcae21c95</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>96664699-5a08-4abb-99be-3e4b59d184fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wstepna_ostat_weryfikacja_G1/wst_ost_weryfikacja_G1</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_636611-N-2018_04</name>
+   <name>span_636611-N-2018_G1</name>
    <tag></tag>
    <elementGuidId>4e3ccb3f-9270-406d-997e-98b8b9d3308f</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = '636611-N-2018_10' or . = '636611-N-2018_10')]</value>
+         <value>//span[(text() = '636611-N-2018_G1' or . = '636611-N-2018_G1')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>636611-N-2018_10</value>
+      <value>636611-N-2018_G1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

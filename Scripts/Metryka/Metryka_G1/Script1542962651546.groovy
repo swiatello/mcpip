@@ -17,7 +17,7 @@ WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Metryka/Metryka_G1/span_Nowe postpowanie'))
 
-WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Numer()_Number'), '636611-N-2018_10')
+WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Numer()_Number'), '636611-N-2018_G1')
 
 WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Tytu()_Name'), 'Zakup i sukcesywna dostawa materiałów eksploatacyjnych dla potrzeb centralnej sterylizatorni WSZZ w Kielcach')
 
@@ -42,6 +42,8 @@ WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Akcja_description0'), 'Pa
 
 WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Akcja_pakiet1'), '1000000')
 
+WebUI.delay(1)
+
 WebUI.waitForElementPresent(findTestObject('Metryka/Metryka_G1/button_Dodaj'), 3)
 
 WebUI.click(findTestObject('Metryka/Metryka_G1/button_Dodaj'))
@@ -50,6 +52,8 @@ WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Usu_description1'), 'Paki
 
 WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Usu_pakiet2'), '2000000')
 
+WebUI.delay(1)
+
 WebUI.waitForElementPresent(findTestObject('Metryka/Metryka_G1/button_Dodaj2'), 3)
 
 WebUI.click(findTestObject('Metryka/Metryka_G1/button_Dodaj2'))
@@ -57,6 +61,8 @@ WebUI.click(findTestObject('Metryka/Metryka_G1/button_Dodaj2'))
 WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Usu_description2'), 'Pakiet 3')
 
 WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Usu_pakiet3'), '3000000')
+
+WebUI.delay(1)
 
 WebUI.waitForElementPresent(findTestObject('Metryka/Metryka_G1/button_Dodaj3'), 3)
 

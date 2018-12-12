@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>wst_ost_weryfikacja</name>
+   <name>wst_ost_weryfikacja_G1</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>98179803-3035-4f7c-8645-c29475ce7280</testCaseGuid>

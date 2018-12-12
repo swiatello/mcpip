@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Protokol_otwarcia_Dostawcy</name>
+   <name>Protokol_otwarcia_G1</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>dd8db5c7-b5aa-46e1-9d99-f3b10f693150</testCaseGuid>
