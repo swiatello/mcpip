@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(//input[@name='agreementSection_orderContainsDynamicShoppingSystem'])[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'radio' and @value = '0' and @name = 'agreementSection_orderContainsDynamicShoppingSystem']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +45,7 @@
       <value>model.orderContainsDynamicShoppingSystemAgreementId</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
@@ -80,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;all&quot;)/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content subpage&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row ng-scope&quot;]/form[@class=&quot;form-horizontal ng-valid-maxlength ng-valid-date ng-invalid ng-invalid-required ng-dirty ng-valid-parse&quot;]/div[@class=&quot;mt-50 col-sm-10 col-centered&quot;]/div[2]/div[13]/div[3]/div[@class=&quot;form-group validation-summary-errors widthUnset&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 border&quot;]/p[@id=&quot;OrderContainsDynamicShoppingSystem&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-required&quot;]</value>
+      <value>//*[@id=&quot;OrderHasBeenDevidedToParts&quot;]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

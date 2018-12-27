@@ -9,8 +9,20 @@
          <key>XPATH</key>
          <value>//div[@id='all']/div[2]/section/div/div/form/div/div[2]/div[4]/div[3]/div/select</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[(text() = '
+                                Usługi
+                                Dostawy
+                                Roboty budowlane
+                            ' or . = '
+                                Usługi
+                                Dostawy
+                                Roboty budowlane
+                            ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +61,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;all&quot;)/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content subpage&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row ng-scope&quot;]/form[@class=&quot;form-horizontal ng-valid-maxlength ng-valid-editable ng-valid-date ng-dirty ng-valid-parse ng-valid ng-valid-required&quot;]/div[@class=&quot;full-width&quot;]/div[@class=&quot;mt-50 col-sm-10 col-centered&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 border&quot;]/select[@class=&quot;ng-pristine ng-untouched ng-valid ng-not-empty&quot;]</value>
+      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div/div[2]/div[5]/div[3]/div/select</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -6,12 +6,12 @@
    <elementGuidId>7785dc24-bf07-45fb-959a-41d6fe9b608c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div/div[2]/div[7]/div/table/tbody/tr[3]/td[6]/button[1][count(. | //button[@type = 'button']) = count(//button[@type = 'button'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@type='button']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div/div[2]/div[8]/div/table/tbody/tr[3]/td[6]/button[1][count(. | //button[@type = 'button']) = count(//button[@type = 'button'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div/div[2]/div[7]/div/table/tbody/tr[3]/td[6]/button[1]</value>
+      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div/div[2]/div[8]/div/table/tbody/tr[3]/td[6]/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

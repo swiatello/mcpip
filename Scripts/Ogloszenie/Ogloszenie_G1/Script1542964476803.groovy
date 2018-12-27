@@ -221,7 +221,7 @@ WebUI.delay(3)
 WebUI.setText(findTestObject('Ogloszenie/Ogloszenie_G1/textarea__DocumentListOfArt25U_142'), '1. dokumenty potwierdzające iż oferowane dostawy odpowiadają wymaganiom określonym przez zamawiającego w opisie przedmiotu zamówienia.')
 
 'III.7'
-WebUI.setText(findTestObject('Ogloszenie/Ogloszenie_G1/textarea__OtherDocumentList'), '1. wypełniony i podpisany formularz ofertowy\n2. wypełniony i podpisany formularz asortymentowo-cenowy')
+WebUI.setText(findTestObject('Ogloszenie/Ogloszenie_G1/textarea__OtherDocumentList'), '1. wypełniony i podpisany formularz ofertowy\r\n2. wypełniony i podpisany formularz asortymentowo-cenowy')
 
 WebUI.delay(3)
 
@@ -399,12 +399,12 @@ WebUI.delay(2)
 'IV.6.3'
 WebUI.setText(findTestObject('Ogloszenie/Ogloszenie_G1/input__QuantityOfDaysToDeadlin'), '30')
 
-WebUI.scrollToElement(findTestObject('Ogloszenie/Ogloszenie_G1/input_tak_agreementSection_ann - Copy'), 0)
+WebUI.scrollToElement(findTestObject('Ogloszenie/Ogloszenie_G1/input_tak_agreementSection_ann'), 0)
 
 WebUI.delay(2)
 
 'IV.6.4'
-WebUI.click(findTestObject('Ogloszenie/Ogloszenie_G1/input_tak_agreementSection_ann - Copy'))
+WebUI.click(findTestObject('Ogloszenie/Ogloszenie_G1/input_tak_agreementSection_ann'))
 
 'IV.6.5'
 WebUI.click(findTestObject('Ogloszenie/Ogloszenie_G1/input_tak_agreementSection_ann_1'))
@@ -439,7 +439,7 @@ WebUI.click(findTestObject('Ogloszenie/Ogloszenie_G1/span_Przejd dalej'))
 WebUI.delay(3)
 
 'zalacznik 2 OPIS'
-WebUI.setText(findTestObject('Ogloszenie/Ogloszenie_G1/textarea__OrderDescription'), 'Pakiet nr 3 – Wskaźniki emulacyjne')
+WebUI.setText(findTestObject('Ogloszenie/Ogloszenie_G1/textarea__OrderDescription'), 'Pakiet nr 2 – Wskaźniki emulacyjne')
 
 'czas trwania'
 WebUI.setText(findTestObject('Ogloszenie/Ogloszenie_G1/input_Okres w miesicach_Period'), '24')
@@ -455,7 +455,7 @@ WebUI.click(findTestObject('Ogloszenie/Ogloszenie_G1/span_Przejd dalej'))
 WebUI.delay(3)
 
 'zalacznik 3 OPIS'
-WebUI.setText(findTestObject('Ogloszenie/Ogloszenie_G1/textarea__OrderDescription'), 'Pakiet 2 – Wskaźniki typu 5')
+WebUI.setText(findTestObject('Ogloszenie/Ogloszenie_G1/textarea__OrderDescription'), 'Pakiet 3 – Wskaźniki typu 5')
 
 'czas trwania'
 WebUI.setText(findTestObject('Ogloszenie/Ogloszenie_G1/input_Okres w miesicach_Period'), '24')

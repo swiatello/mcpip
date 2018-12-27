@@ -63,8 +63,6 @@ WebUI.verifyElementNotChecked(findTestObject('Ogloszenie/Ogloszenie_1_2/input_Pr
 
 actualValue = WebUI.getAttribute(findTestObject('Ogloszenie/Ogloszenie_1_2/input_AdditionalInformationAbo'), 'value')
 
-WebUI.verifyMatch(actualValue, '', true)
-
 actualValue = WebUI.getAttribute(findTestObject('Ogloszenie/nazwa firmy/input_CompanyName'), 'value')
 
 WebUI.verifyMatch(actualValue, 'Firma Publiczna', true)

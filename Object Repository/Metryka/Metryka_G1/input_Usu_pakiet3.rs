@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div/div[2]/div[7]/div/table/tbody/tr[3]/td[2]/input</value>
+         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div/div[2]/div[8]/div/table/tbody/tr[3]/td[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div/div[2]/div[7]/div/table/tbody/tr[3]/td[2]/input</value>
+      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div/div[2]/div[8]/div/table/tbody/tr[3]/td[2]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

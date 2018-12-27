@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForPageLoad(5)
 
@@ -23,7 +24,9 @@ WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Tytu()_Name'), 'Zakup i s
 
 WebUI.click(findTestObject('Metryka/Metryka_G1/input_Tryb postpowania_Options'))
 
-WebUI.delay(1)
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Metryka/Metryka_G1/input_Tryb prowadzenia postpow'))
 
 WebUI.scrollToElement(findTestObject('Metryka/Metryka_G1/select_Usugi'), 0)
 
@@ -93,6 +96,20 @@ WebUI.click(findTestObject('Metryka/Metryka_G1/button_komisja_Dodaj1'))
 WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Usu_person2'), 'Jan Kowalski')
 
 WebUI.selectOptionByValue(findTestObject('Metryka/Metryka_G1/select_Przewodniczcy2'), '3', true)
+
+WebUI.scrollToElement(findTestObject('Metryka/Metryka_G1/input_Potwierd powoanie komisj'), 0)
+
+WebUI.click(findTestObject('Metryka/Metryka_G1/input_Potwierd powoanie komisj'))
+
+WebUI.delay(2)
+
+WebUI.doubleClick(findTestObject('Metryka/Metryka_G1/input_Data powoania komisji_Co'))
+
+WebUI.setText(findTestObject('Metryka/Metryka_G1/input_Data powoania komisji_Co'), '2018-11-30')
+
+WebUI.sendKeys(findTestObject('Metryka/Metryka_G1/input_Data powoania komisji_Co'), Keys.chord(Keys.ESCAPE))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Metryka/Metryka_G1/span_Zapisz postpowanie'))
 

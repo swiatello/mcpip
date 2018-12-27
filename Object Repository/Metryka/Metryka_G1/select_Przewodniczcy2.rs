@@ -6,12 +6,12 @@
    <elementGuidId>8eaccee3-3870-4e5c-89f4-4cd3aef38459</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div/div[2]/div[9]/div[3]/table/tbody/tr[3]/td[2]/select[count(. | //select[@name = 'RoleId']) = count(//select[@name = 'RoleId'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@name='RoleId']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div/div[2]/div[10]/div[3]/table/tbody/tr[3]/td[2]/select[count(. | //select[@name = 'RoleId']) = count(//select[@name = 'RoleId'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -60,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div/div[2]/div[9]/div[3]/table/tbody/tr[3]/td[2]/select</value>
+      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div/div[2]/div[10]/div[3]/table/tbody/tr[3]/td[2]/select</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

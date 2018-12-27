@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@name='agreementSection_orderHasBeenDevidedToParts']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'radio' and @value = '1' and @name = 'agreementSection_orderHasBeenDevidedToParts']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +45,7 @@
       <value>model.orderHasBeenDevidedToPartsAgreementId</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>

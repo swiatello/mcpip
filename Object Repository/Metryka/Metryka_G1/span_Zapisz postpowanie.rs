@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='all']/div[2]/section/div/div/form/div/div[2]/div[16]/div/div/button/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Zapisz postępowanie' or . = 'Zapisz postępowanie')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;all&quot;)/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content subpage&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;row ng-scope&quot;]/form[@class=&quot;form-horizontal ng-valid-maxlength ng-valid-editable ng-dirty ng-valid-parse ng-valid-required ng-valid ng-valid-date&quot;]/div[@class=&quot;full-width&quot;]/div[@class=&quot;mt-50 col-sm-10 col-centered&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-3 form-buttons col-centered float-none&quot;]/button[@class=&quot;btn btn-success left-align&quot;]/span[1]</value>
+      <value>//*[@id=&quot;all&quot;]/div[2]/section/div/div/form/div/div[2]/div[18]/div/div/button/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
