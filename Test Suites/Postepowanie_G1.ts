@@ -4,7 +4,7 @@
    <name>Postepowanie_G1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-27T22:28:04</lastRun>
+   <lastRun>2019-01-30T14:18:31</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -32,7 +32,7 @@
    <testCaseLink>
       <guid>e88425a1-512e-4e85-bbc7-9623d9f1a025</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Ogloszenie/Ogloszenie_G1</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -56,7 +56,7 @@
    <testCaseLink>
       <guid>cfb18fb2-7616-450f-9f64-eca69d90dfc7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Ogloszenie/Sprawdzenie_ogloszenie_G1</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

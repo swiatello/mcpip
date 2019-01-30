@@ -266,6 +266,13 @@ WebUI.scrollToElement(findTestObject('Ogloszenie/Ogloszenie_G1/input_tak_agreeme
 
 WebUI.delay(3)
 
+'IV.1.7'
+WebUI.click(findTestObject('Ogloszenie/Ogloszenie_G1/input_tak_agreementSection_ord'))
+
+WebUI.click(findTestObject('Ogloszenie/Ogloszenie_G1/input_tak_agreementSection_off_2'))
+
+WebUI.click(findTestObject('Ogloszenie/Ogloszenie_G1/input_tak_agreementSection_all'))
+
 WebUI.scrollToElement(findTestObject('Ogloszenie/Ogloszenie_G1/input_tak_agreementSection_isE'), 0)
 
 WebUI.delay(3)
